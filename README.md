@@ -80,7 +80,6 @@ This is currently (and may remain) Clojure-only.
 <a href="https://opencollective.com/lambda-island">
 <img src="https://opencollective.com/lambda-island/tiers/enterprise-sponsor.svg?limit=30&button=false&avatarHeight=46">
 <img src="https://opencollective.com/lambda-island/tiers/startup-sponsor.svg?limit=30&button=false&avatarHeight=46">
-<img src="https://opencollective.com/lambda-island/tiers/kaocha-yearly-license.svg?limit=30&button=false&avatarHeight=46">
 <img src="https://opencollective.com/lambda-island/tiers/bootstrapper.svg?limit=30&button=false&avatarHeight=46">
 <img src="https://opencollective.com/lambda-island/tiers/hobbyist.svg?limit=30&button=false&avatarHeight=46">
 </a>
