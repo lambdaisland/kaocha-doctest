@@ -1,2 +1,6 @@
 #kaocha/v1
-{:plugins [:notifier :print-invocations :profiling]}
+{:tests   [{:id          :doctests
+            :type        :kaocha.type/doctest
+            :test-paths  ["src"]
+            :ns-patterns [".*"]}]
+ :reporter [kaocha.report/documentation]}

@@ -10,4 +10,4 @@
 
   :test
   {:extra-paths ["test"]
-   :extra-deps  {lambdaisland/kaocha {:mvn/version "1.78.1249"}}}}}
+   :extra-deps  {lambdaisland/kaocha {:local/root "../kaocha" #_#_:mvn/version "1.78.1249"}}}}}

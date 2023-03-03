@@ -6,6 +6,8 @@
 
 Doctest test type for Kaocha
 
+Hot off the press, this is proof of concept so far. Caveat programmator!
+
 ## Features
 
 <!-- installation -->
@@ -26,7 +28,49 @@ or add the following to your `project.clj` ([Leiningen](https://leiningen.org/))
 
 ## Rationale
 
+It can be very helpful to put some examples in a docstring of how to use a
+function, with this test type these now become tests as well, so you make sure
+they work, and continue to work.
+
+This project introduces a new kaocha "test type", you define a separate suite of
+type doctest, and it'll scan the given directories for these tests inside
+docstrings.
+
 ## Usage
+
+Write doctests:
+
+```clj
+(defn sum
+  "This function computes a sum
+
+  (sum 1 2 3)
+  ;; => 6
+  (sum 4 5 6)
+  ;; => 10
+  "
+  [& args]
+  (apply + args))
+```
+
+Define a doctest test suite:
+
+```clj
+;; tests.edn
+#kaocha/v1
+{:tests   [{:id          :doctests
+            :type        :kaocha.type/doctest
+            ;; Currently these are needed, or it will only load `test/.*_test.clj`, we're working on fixing that.
+            :test-paths  ["src"]
+            :ns-patterns [".*"]}]
+ :reporter [kaocha.report/documentation]}
+```
+
+Run `bin/kaocha` (see the Kaocha docs for more info on setting up and running Kaocha).
+
+## Limitations
+
+This is currently (and may remain) Clojure-only.
 
 <!-- opencollective -->
 ## Lambda Island Open Source
