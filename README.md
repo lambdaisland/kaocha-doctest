@@ -77,7 +77,7 @@ This is currently (and may remain) Clojure-only.
 
 [Become a backer](https://opencollective.com/lambda-island) and show your support to our open source projects.
 
-<a href="https://opencollective.com/lambdaisland"><img src="https://opencollective.com/lambdaisland/tiers/backers.svg?limit=30&button=false&avatarHeight=46&width=750"></a>
+<a href="https://opencollective.com/lambda-island"><img src="https://opencollective.com/lambda-island/tiers/backers.svg?limit=30&button=false&avatarHeight=46&width=750"></a>
 <img align="left" src="https://github.com/lambdaisland/open-source/raw/master/artwork/lighthouse_readme.png">
 
 &nbsp;
