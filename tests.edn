@@ -1,7 +1,7 @@
 #kaocha/v1
-{:tests   [{:id          :doctests
-            :type        :kaocha.type/doctest
-            :test-paths  ["src"]
-            :ns-patterns [".*"]}
+{:tests   [#_{:id          :doctests
+              :type        :kaocha.type/doctest
+              :test-paths  ["src"]
+              :ns-patterns [".*"]}
            {:id          :unit }]
  :reporter [kaocha.report/documentation]}

@@ -1,6 +1,5 @@
 (ns doctest.demo)
 
-
 (defn sum
   "This function computes a sum
 
