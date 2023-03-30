@@ -2,5 +2,6 @@
 {:tests   [{:id          :doctests
             :type        :kaocha.type/doctest
             :test-paths  ["src"]
-            :ns-patterns [".*"]}]
+            :ns-patterns [".*"]}
+           {:id          :unit }]
  :reporter [kaocha.report/documentation]}
