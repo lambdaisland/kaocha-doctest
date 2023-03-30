@@ -16,13 +16,13 @@ Hot off the press, this is proof of concept so far. Caveat programmator!
 To use the latest release, add the following to your `deps.edn` ([Clojure CLI](https://clojure.org/guides/deps_and_cli))
 
 ```
-com.lambdaisland/kaocha-doctest {:mvn/version "0.0.0"}
+com.lambdaisland/kaocha-doctest {:mvn/version "0.1.15"}
 ```
 
 or add the following to your `project.clj` ([Leiningen](https://leiningen.org/))
 
 ```
-[com.lambdaisland/kaocha-doctest "0.0.0"]
+[com.lambdaisland/kaocha-doctest "0.1.15"]
 ```
 <!-- /installation -->
 
